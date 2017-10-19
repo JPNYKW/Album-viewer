@@ -46,3 +46,12 @@ function drawFillBox(cont,x,y,size,color){
 	cont.fillStyle=color;
 	cont.fillRect(x-size/2,y-size/2,size,size);
 }
+
+function drawText(cont,text,x,y,font,bold,size,color,center){
+	cont.beginPath();
+	cont.font=`${size}px ${font}`;
+	cont.strokeStyle=color;
+	cont.lineWidth=bold;
+	if(center)x-=text.length/2*(size/2)-size/2;
+	cont.strokeText(text,x,y);
+}
