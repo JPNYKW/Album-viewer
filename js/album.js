@@ -16,7 +16,7 @@ function drawScreen(cont,id){ // アルバムの描画
 	let $R=256;
 	let $ER=void(0);
 
-	cont.clearRect(0,0,canv.width,canv.height);
+	cont.clearRect(0,0,canv.width,canv.height); // 画面クリア
 
 	for(i=0;i<16;i++){ // 円形に画像を描画する
 		$ST=$IMAGES[id-8+i];
