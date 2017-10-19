@@ -13,7 +13,7 @@ window.onload=()=>{
 
 	sizePx=canv.width/2;
 
-	canv.style.backgroundColor='#4ec5e9';// develop only
+	canv.style.backgroundColor='#4ec5e9';
 
 	importImage('images/pic',46);
 	index=0;
