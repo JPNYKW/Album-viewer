@@ -14,7 +14,7 @@ function image(src){ // 画像データを保存するオブジェクト
 
 function drawScreen(cont,id){ // アルバムの描画
 	let $R=256;
-	let $ER=void(0);
+	let $ER=void(0); // 未定義の判定用
 
 	cont.clearRect(0,0,canv.width,canv.height); // 画面クリア
 
