@@ -32,7 +32,7 @@ function drawScreen(cont,id){ // アルバムの描画
 	55,5,'#222');
 	
 	// 画像indexの描画
-	drawText(cont,id,((sizePx-25)+$M.cos((8*(360/16))*$M.PI/180)*310+55/2-2)+15,320,'Arial',2,15,'#FAFAFA',true);
+	drawText(cont,id+'',70,360,'Arial',1,30,'#FAFAFA',true);
 
 	// 画像の背景二色の描画
 	drawFillBox(cont,320+30,320+30,264,'#fafafa');
