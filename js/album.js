@@ -18,7 +18,7 @@ function drawScreen(cont,id){ // アルバムの描画
 
 	cont.clearRect(0,0,canv.width,canv.height); // 画面クリア
 	
-	drawFillBox(cont,80,360-10,50,'#2299FF'); // 数字範囲の背景
+	drawFillBox(cont,90,360-10,50,'#2299FF'); // 数字範囲の背景
 
 	for(i=0;i<16;i++){ // 円形に画像を描画する
 		$ST=$IMAGES[id-8+i];
@@ -34,7 +34,7 @@ function drawScreen(cont,id){ // アルバムの描画
 	55,5,'#222');
 	
 	// 画像indexの描画
-	drawText(cont,id+'',70,360,'Arial',1,30,'#FAFAFA',true);
+	drawText(cont,id+'',75,360,'Arial',1,30,'#FAFAFA',true);
 
 	// 画像の背景二色の描画
 	drawFillBox(cont,320+30,320+30,264,'#fafafa');
